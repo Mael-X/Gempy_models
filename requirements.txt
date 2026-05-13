@@ -1,0 +1,9 @@
+numpy
+matplotlib
+pandas
+pyvista
+gempy
+gempy_viewer
+opencv-python
+freenect</content>
+<parameter name="filePath">c:\Users\mael\Desktop\FabLab\requirements.txt
