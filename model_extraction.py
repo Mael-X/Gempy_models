@@ -2,6 +2,7 @@ import os
 import numpy as np
 import gempy as gp
 import gempy_viewer as gpv
+import threading
 
 # Set backend
 os.environ["DEFAULT_BACKEND"] = "PYTORCH"
@@ -191,5 +192,4 @@ if __name__ == "__main__":
 
     import json
     with open('colors.json', 'w') as f:
-        json.dump(colors, f)</content>
-<parameter name="filePath">c:\Users\mael\Desktop\FabLab\model_extraction.py
+        json.dump(colors, f)
